@@ -1,0 +1,27 @@
+<% content_for :css do %>
+  <%= stylesheet_link_tag 'show' %>
+<% end %>
+
+<% if flash[:notice] %>
+  <div class="flash_show">
+    <%= flash[:notice] %>
+  </div>
+<% end %>
+<div class="show_box">
+  <div class="book_element">
+    <label class="label">Title:</label>
+    <%= @book.title %>
+  </div>
+  <div class="book_element">
+    <label class="label">Body:</label>
+    <%= @book.body %>
+  </div>
+</div>
+
+
+<div class="action_buttons">
+  <p><%= link_to 'Edit', edit_book_path(@book) %></p>
+  <p>|</p>
+  <p><%= link_to 'Back', books_path %></p>
+</div>
+

@@ -1,0 +1,31 @@
+.edit_box {
+  padding: 10px 0 0 20px;
+}
+.edit_box h1{
+  position:relative;
+  right:20px;
+}
+.title {
+  display:block;
+  font-size:15px;
+}
+.body{
+  display:block;
+  font-size:15px;
+}
+
+.link_buttons p {
+  display: inline-block;
+}
+
+.link_buttons a {
+  text-decoration: none !important;
+  color: black !important;
+  border-bottom: 1px solid #666 !important;
+}
+
+.link_buttons a:hover {
+  background-color: black !important;
+  color: white !important;
+  text-decoration-color: white !important;
+}

@@ -1,0 +1,29 @@
+// Place all the styles related to the homes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.top{
+    font-family: verdana;
+}
+.top_introduction{
+    font-size:25px;
+    margin:20px 0 30px 20px;
+}
+.top_introduction strong{
+    font-weight:bold;
+}
+.top_greeting{
+    margin:0 0 0 40px;
+    line-height:50px;
+    font-size:15px;
+}
+.top a{
+    text-decoration:none;
+    color:black;
+    border-bottom:1px solid #666;
+}
+.top a:hover {
+  background-color: black;
+  color: white;
+  text-decoration-color: white;
+}
